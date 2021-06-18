@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: external-container
-          image: imgaurav3/external:1.1
+          image: jermezildodsouza/external:2.4
           env:
             - name: SERVER
               valueFrom:
